@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="218" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tw Cen MT Condensed Extra Bold" size="24" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="cmb1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="32">
+                <StringItem index="0" value="fiebre"/>
+                <StringItem index="1" value="tos"/>
+                <StringItem index="2" value="dolor_garganta"/>
+                <StringItem index="3" value="cansancio"/>
+                <StringItem index="4" value="dolor_cabeza"/>
+                <StringItem index="5" value="nauseas"/>
+                <StringItem index="6" value="diarrea"/>
+                <StringItem index="7" value="estornudos"/>
+                <StringItem index="8" value="picazon_ojos"/>
+                <StringItem index="9" value="mareos"/>
+                <StringItem index="10" value="vomitos"/>
+                <StringItem index="11" value="dolor_abdominal"/>
+                <StringItem index="12" value="sensibilidad_luz"/>
+                <StringItem index="13" value="dolor_muscular"/>
+                <StringItem index="14" value="palpitaciones"/>
+                <StringItem index="15" value="dificultad_respiratoria"/>
+                <StringItem index="16" value="inflamacion_articular"/>
+                <StringItem index="17" value="sangrado_encias"/>
+                <StringItem index="18" value="ulceras_orales"/>
+                <StringItem index="19" value="petequias"/>
+                <StringItem index="20" value="convulsiones"/>
+                <StringItem index="21" value="paralisis_muscular"/>
+                <StringItem index="22" value="palidez"/>
+                <StringItem index="23" value="taquipnea"/>
+                <StringItem index="24" value="dolor_pecho"/>
+                <StringItem index="25" value="perdida_peso"/>
+                <StringItem index="26" value="poliuria"/>
+                <StringItem index="27" value="polidipsia"/>
+                <StringItem index="28" value="oliguria"/>
+                <StringItem index="29" value="confusion_mental"/>
+                <StringItem index="30" value="hemorragia_nasal"/>
+                <StringItem index="31" value="dificultad_tragar"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cmb1" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmb1ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="130" width="133" height="34"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cmb2">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="32">
+                <StringItem index="0" value="fiebre"/>
+                <StringItem index="1" value="tos"/>
+                <StringItem index="2" value="dolor_garganta"/>
+                <StringItem index="3" value="cansancio"/>
+                <StringItem index="4" value="dolor_cabeza"/>
+                <StringItem index="5" value="nauseas"/>
+                <StringItem index="6" value="diarrea"/>
+                <StringItem index="7" value="estornudos"/>
+                <StringItem index="8" value="picazon_ojos"/>
+                <StringItem index="9" value="mareos"/>
+                <StringItem index="10" value="vomitos"/>
+                <StringItem index="11" value="dolor_abdominal"/>
+                <StringItem index="12" value="sensibilidad_luz"/>
+                <StringItem index="13" value="dolor_muscular"/>
+                <StringItem index="14" value="palpitaciones"/>
+                <StringItem index="15" value="dificultad_respiratoria"/>
+                <StringItem index="16" value="inflamacion_articular"/>
+                <StringItem index="17" value="sangrado_encias"/>
+                <StringItem index="18" value="ulceras_orales"/>
+                <StringItem index="19" value="petequias"/>
+                <StringItem index="20" value="convulsiones"/>
+                <StringItem index="21" value="paralisis_muscular"/>
+                <StringItem index="22" value="palidez"/>
+                <StringItem index="23" value="taquipnea"/>
+                <StringItem index="24" value="dolor_pecho"/>
+                <StringItem index="25" value="perdida_peso"/>
+                <StringItem index="26" value="poliuria"/>
+                <StringItem index="27" value="polidipsia"/>
+                <StringItem index="28" value="oliguria"/>
+                <StringItem index="29" value="confusion_mental"/>
+                <StringItem index="30" value="hemorragia_nasal"/>
+                <StringItem index="31" value="dificultad_tragar"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cmb1" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmb2ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="170" width="133" height="34"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cmb3">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="32">
+                <StringItem index="0" value="fiebre"/>
+                <StringItem index="1" value="tos"/>
+                <StringItem index="2" value="dolor_garganta"/>
+                <StringItem index="3" value="cansancio"/>
+                <StringItem index="4" value="dolor_cabeza"/>
+                <StringItem index="5" value="nauseas"/>
+                <StringItem index="6" value="diarrea"/>
+                <StringItem index="7" value="estornudos"/>
+                <StringItem index="8" value="picazon_ojos"/>
+                <StringItem index="9" value="mareos"/>
+                <StringItem index="10" value="vomitos"/>
+                <StringItem index="11" value="dolor_abdominal"/>
+                <StringItem index="12" value="sensibilidad_luz"/>
+                <StringItem index="13" value="dolor_muscular"/>
+                <StringItem index="14" value="palpitaciones"/>
+                <StringItem index="15" value="dificultad_respiratoria"/>
+                <StringItem index="16" value="inflamacion_articular"/>
+                <StringItem index="17" value="sangrado_encias"/>
+                <StringItem index="18" value="ulceras_orales"/>
+                <StringItem index="19" value="petequias"/>
+                <StringItem index="20" value="convulsiones"/>
+                <StringItem index="21" value="paralisis_muscular"/>
+                <StringItem index="22" value="palidez"/>
+                <StringItem index="23" value="taquipnea"/>
+                <StringItem index="24" value="dolor_pecho"/>
+                <StringItem index="25" value="perdida_peso"/>
+                <StringItem index="26" value="poliuria"/>
+                <StringItem index="27" value="polidipsia"/>
+                <StringItem index="28" value="oliguria"/>
+                <StringItem index="29" value="confusion_mental"/>
+                <StringItem index="30" value="hemorragia_nasal"/>
+                <StringItem index="31" value="dificultad_tragar"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="name" type="java.lang.String" value="cmb3" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmb3ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="220" width="133" height="34"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cmb4">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="14">
+                <StringItem index="0" value="mal_humor"/>
+                <StringItem index="1" value="irritabilidad"/>
+                <StringItem index="2" value="enojo"/>
+                <StringItem index="3" value="agitacion"/>
+                <StringItem index="4" value="tristeza"/>
+                <StringItem index="5" value="confusion_mental"/>
+                <StringItem index="6" value="fatiga"/>
+                <StringItem index="7" value="falta_concentracion"/>
+                <StringItem index="8" value="inquietud"/>
+                <StringItem index="9" value="mareos"/>
+                <StringItem index="10" value="palpitaciones"/>
+                <StringItem index="11" value="perdida_apetito"/>
+                <StringItem index="12" value="sudoracion_excesiva"/>
+                <StringItem index="13" value="temblores"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cmb4" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmb4ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="370" width="132" height="35"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cmb5">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="14">
+                <StringItem index="0" value="mal_humor"/>
+                <StringItem index="1" value="irritabilidad"/>
+                <StringItem index="2" value="enojo"/>
+                <StringItem index="3" value="agitacion"/>
+                <StringItem index="4" value="tristeza"/>
+                <StringItem index="5" value="confusion_mental"/>
+                <StringItem index="6" value="fatiga"/>
+                <StringItem index="7" value="falta_concentracion"/>
+                <StringItem index="8" value="inquietud"/>
+                <StringItem index="9" value="mareos"/>
+                <StringItem index="10" value="palpitaciones"/>
+                <StringItem index="11" value="perdida_apetito"/>
+                <StringItem index="12" value="sudoracion_excesiva"/>
+                <StringItem index="13" value="temblores"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cmb5" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmb5ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="320" width="132" height="38"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cmb6">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="14">
+                <StringItem index="0" value="mal_humor"/>
+                <StringItem index="1" value="irritabilidad"/>
+                <StringItem index="2" value="enojo"/>
+                <StringItem index="3" value="agitacion"/>
+                <StringItem index="4" value="tristeza"/>
+                <StringItem index="5" value="confusion_mental"/>
+                <StringItem index="6" value="fatiga"/>
+                <StringItem index="7" value="falta_concentracion"/>
+                <StringItem index="8" value="inquietud"/>
+                <StringItem index="9" value="mareos"/>
+                <StringItem index="10" value="palpitaciones"/>
+                <StringItem index="11" value="perdida_apetito"/>
+                <StringItem index="12" value="sudoracion_excesiva"/>
+                <StringItem index="13" value="temblores"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cmb6" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmb6ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="410" width="132" height="36"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="310" y="120" width="335" height="268"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="txtArea">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Yu Gothic" size="14" style="1"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="name" type="java.lang.String" value="txtArea" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="cmbDiagnostico1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Diagnosticar"/>
+            <Property name="name" type="java.lang.String" value="cmbDiagnostico" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbDiagnostico1ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="130" width="-1" height="40"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="cmbLimpiar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Limpiar Area"/>
+            <Property name="name" type="java.lang.String" value="cmbLimpiar" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbLimpiarActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="190" y="180" width="-1" height="33"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Nirmala UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Caracteristicas de sintomas del paciente:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="280" width="-1" height="24"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Nirmala UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Selecciona 3 Sintomas:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="30" y="90" width="143" height="24"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Nirmala UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Diagn&#xf3;stico"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="320" y="90" width="143" height="24"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+              <FontInfo relative="true">
+                <Font bold="true" component="jLabel2" property="font" relativeSize="true" size="12"/>
+              </FontInfo>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Sistema Experto En Enfermedades"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="160" y="30" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagen/imagen.jpg"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="-40" y="-30" width="730" height="580"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
